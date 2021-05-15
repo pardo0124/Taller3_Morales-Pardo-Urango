@@ -55,7 +55,7 @@ datos %>% ggplot(mapping = aes(x=Desigualdad))+
 ```{r}
 datos %>% ggplot(mapping = aes(x=Gasto_educ))+
   geom_histogram(binwidth = 0.4, col='black', fill='blue', alpha=0.4)+
-  labs(title = "Histograma desigualdad", y="Frecuencia","Gasto en Educación", caption = "Datos Banco Mundial")+
+  labs(title = "Histograma de gasto en educación", y="Frecuencia","Gasto en Educación", caption = "Datos Banco Mundial")+
   
  scale_x_continuous(
     breaks = seq(from = 0, to = 20, by = 5)) +
